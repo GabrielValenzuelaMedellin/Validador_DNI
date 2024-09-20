@@ -1,0 +1,58 @@
+body {
+    background-color: #ff69b4; /* Rosa brillante */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente clásica del mal gusto */
+    color: #00ff00; /* Verde neón */
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em; /* Gigante */
+    text-shadow: 3px 3px 0 #0000ff; /* Sombra azul */
+    margin: 20px 0;
+}
+
+.container {
+    border: 10px dashed #ffff00; /* Amarillo chillón */
+    padding: 20px;
+    background-color: #ff4500; /* Naranja fuerte */
+    border-radius: 15px;
+}
+
+label {
+    font-size: 2em; /* Grande */
+    display: block;
+    margin: 10px 0;
+}
+
+input {
+    padding: 15px;
+    font-size: 1.5em;
+    border: 5px solid #00ffff; /* Cian */
+    background-color: #ff00ff; /* Magenta */
+    color: #000; /* Texto negro */
+}
+
+button {
+    background-color: #008000; /* Verde oscuro */
+    color: #ffffff; /* Texto blanco */
+    font-size: 2em;
+    border: 3px solid #ffff00; /* Borde amarillo */
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff0000; /* Rojo al pasar el mouse */
+    color: #0000ff; /* Texto azul al pasar el mouse */
+}
+
+#message {
+    font-size: 3em; /* Muy grande */
+    color: #ff00ff; /* Magenta */
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
